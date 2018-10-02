@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/societiesui"
+    tools:context=".SocietyActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/eceButton"
+            android:layout_width="125dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="39dp"
+            android:layout_marginTop="156dp"
+            android:alpha="0"
+            android:background="@color/fb"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="1"
+            tools:layout_editor_absoluteX="211dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <Button
+            android:id="@+id/cseButton"
+            android:layout_width="122dp"
+            android:layout_height="68dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="155dp"
+            android:alpha="0"
+            android:background="@color/fb"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="0"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="164dp" />
+
+        <Button
+            android:id="@+id/eeButton"
+            android:layout_width="128dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="39dp"
+            android:alpha="0"
+            android:background="@color/fb"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="2"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="252dp" />
+
+        <Button
+            android:id="@+id/meButton"
+            android:layout_width="130dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="36dp"
+            android:alpha="0"
+            android:background="@color/fb"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="0"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <Button
+            android:id="@+id/eniButton"
+            android:layout_width="128dp"
+            android:layout_height="62dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="151dp"
+            android:layout_marginEnd="34dp"
+            android:alpha="0"
+            android:background="@color/fb"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="2"
+            tools:layout_editor_absoluteX="211dp"
+            tools:layout_editor_absoluteY="346dp" />
+
+        <Button
+            android:id="@+id/ceButton"
+            android:layout_width="129dp"
+            android:layout_height="62dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="152dp"
+            android:layout_marginStart="39dp"
+            android:alpha="0"
+            android:background="@color/fb"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="1"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="347dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

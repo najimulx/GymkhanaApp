@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Gymkhana App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_spash_acitivity">SpashAcitivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_portfolio">PortfolioActivity</string>
+
+    <!--Gynkhana portfolio-->
+    <string name="vp_name">Anirban Roy</string>
+    <string name="gs_name">Ankan Kishore Pathak</string>
+    <string name="gsc_name">Victor Das</string>
+    <string name="gss_name">Bikash Nath</string>
+    <string name="gst_name">Abhinav Asthana</string>
+    <string name="photography_secy_name">Koustavjit Sarma</string>
+    <string name="lpfa_secy_name">Shankhadeep Gogoi</string>
+    <string name="eco_secy_name">Palash Kalita</string>
+    <string name="drama_secy_name">Ashish Ranjan</string>
+    <string name="music_secy_name">Tanaz Ahmed</string>
+    <string name="indoor_secy_name">Ridon Prasad Kakoti</string>
+    <string name="gym_secy_name">Saksham Singh</string>
+    <string name="dance_secy_name">Sarvagya Saxena</string>
+
+
+
+    <string name="vp_no">1234567890</string>
+    <string name="gs_no">0987654321</string>
+    <string name="gsc_no">Victor Das</string>
+    <string name="gss_no">Bikash Nath</string>
+    <string name="gst_no">Abhinav Asthana</string>
+    <string name="photography_secy_no">Koustavjit Sarma</string>
+    <string name="lpfa_secy_no">Shankhadeep Gogoi</string>
+    <string name="eco_secy_no">Palash Kalita</string>
+    <string name="drama_secy_no">Ashish Ranjan</string>
+    <string name="music_secy_no">Tanaz Ahmed</string>
+    <string name="indoor_secy_no">Ridon Prasad Kakoti</string>
+    <string name="gym_secy_no">Saksham Singh</string>
+    <string name="dance_secy_no">Sarvagya Saxena</string>
+
+
+
+
+</resources>

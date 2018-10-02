@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    android:background="@color/fb"
+    app:itemBackground="@drawable/item_selector"
+    >
+    <item android:title="NIT Silchar"
+        app:itemBackground="@color/fb">
+        <menu>
+            <item
+                android:id="@+id/gymkhana"
+                android:icon="@drawable/gymkhanaimproved"
+                android:title="GYMKHANA" />
+            <item
+                android:id="@+id/directorPage"
+                android:icon="@drawable/directorchanged"
+                android:title="DIRECTOR PAGE" />
+        </menu>
+    </item>
+
+    <item android:title="Clubs">
+        <menu>
+            <item
+                android:id="@+id/sportsClub"
+                android:icon="@drawable/olympicgames"
+                android:title="Sports Club" />
+            <item
+                android:id="@+id/photography"
+                android:icon="@drawable/photographyicon"
+                android:title="Photography Club" />
+            <item
+                android:id="@+id/musicClub"
+                android:title="Music Club"
+                android:icon="@drawable/guitar"/>
+            <item
+                android:id="@+id/danceClub"
+                android:title="Dance Club"
+                android:icon="@drawable/dance2"/>
+            <item
+                android:id="@+id/literaryClub"
+                android:title="Literary Club"
+                android:icon="@drawable/book"/>
+            <item
+                android:id="@+id/dramaticsClub"
+                android:title="Dramatics Club"
+                android:icon="@drawable/mask"/>
+        </menu>
+    </item>
+    <item android:title="Misc">
+        <menu>
+            <item
+                android:title="Coding Club"
+                android:id="@+id/codingclub"
+                android:icon="@drawable/icon"/>
+            <item
+                android:title="Illuminits"
+                android:id="@+id/illuminits"
+                android:icon="@drawable/icon"/>
+            <item
+                android:title="Tecnoesis"
+                android:id="@+id/tecnoesis"
+                android:icon="@drawable/icon"/>
+            <item
+                android:title="Incandescence"
+                android:id="@+id/incand"
+                android:icon="@drawable/icon"/>
+            <item
+                android:title="Obiettivo"
+                android:id="@+id/obiettivo"
+                android:icon="@drawable/icon"/>
+        </menu>
+    </item>
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/information"
+                android:title="About and Feedback" />
+        </menu>
+    </item>
+
+
+</menu>
